@@ -1,0 +1,46 @@
+<article class="card" [class]="estado()">
+  <header class="cabecera">
+    <span class="tipo">{{ oportunidad().tipo }}</span>
+
+    <!-- Estado de disponibilidad con estructuras condicionales de Angular -->
+    @if (estado() === 'disponible') {
+      <span class="badge disponible">Disponible</span>
+    } @else if (estado() === 'ultimos') {
+      <span class="badge ultimos">Últimos cupos</span>
+    } @else {
+      <span class="badge sin-cupos">Sin cupos</span>
+    }
+  </header>
+
+  <h3>{{ oportunidad().titulo }}</h3>
+
+  <dl class="datos">
+    <div>
+      <dt>Organización</dt>
+      <dd>{{ oportunidad().organizacion }}</dd>
+    </div>
+    <div>
+      <dt>Modalidad</dt>
+      <dd>{{ oportunidad().modalidad }}</dd>
+    </div>
+    <div>
+      <dt>Fecha de cierre</dt>
+      <dd>{{ oportunidad().fechaCierre }}</dd>
+    </div>
+  </dl>
+
+  <footer class="pie">
+    <span class="cupos">
+      <strong>{{ oportunidad().cupos }}</strong>
+      {{ oportunidad().cupos === 1 ? 'cupo' : 'cupos' }}
+    </span>
+
+    <button
+      type="button"
+      (click)="manifestarInteres()"
+      [disabled]="oportunidad().cupos === 0"
+    >
+      @if (oportunidad().cupos === 0) { No disponible } @else { Me interesa }
+    </button>
+  </footer>
+</article>

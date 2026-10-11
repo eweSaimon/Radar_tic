@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "titulo": "Práctica en Desarrollo Web Front-End",
+    "tipo": "Práctica",
+    "organizacion": "TechNova S.A.S.",
+    "modalidad": "Híbrida",
+    "fechaCierre": "2026-11-15",
+    "cupos": 12
+  },
+  {
+    "id": 2,
+    "titulo": "Beca de Excelencia en Ingeniería",
+    "tipo": "Beca",
+    "organizacion": "Fundación Futuro Digital",
+    "modalidad": "Presencial",
+    "fechaCierre": "2026-10-30",
+    "cupos": 3
+  },
+  {
+    "id": 3,
+    "titulo": "Hackathon Innovación TIC 2026",
+    "tipo": "Hackathon",
+    "organizacion": "Ruta N",
+    "modalidad": "Presencial",
+    "fechaCierre": "2026-10-25",
+    "cupos": 0
+  },
+  {
+    "id": 4,
+    "titulo": "Convocatoria de Semilleros de Investigación",
+    "tipo": "Convocatoria",
+    "organizacion": "Vicerrectoría de Investigación",
+    "modalidad": "Virtual",
+    "fechaCierre": "2026-12-01",
+    "cupos": 20
+  },
+  {
+    "id": 5,
+    "titulo": "Competencia Nacional de Programación",
+    "tipo": "Competencia",
+    "organizacion": "ACIS Colombia",
+    "modalidad": "Virtual",
+    "fechaCierre": "2026-11-05",
+    "cupos": 5
+  },
+  {
+    "id": 6,
+    "titulo": "Curso de Angular Avanzado",
+    "tipo": "Curso",
+    "organizacion": "Plataforma Código Abierto",
+    "modalidad": "Virtual",
+    "fechaCierre": "2026-11-20",
+    "cupos": 6
+  },
+  {
+    "id": 7,
+    "titulo": "Conferencia de Inteligencia Artificial Aplicada",
+    "tipo": "Conferencia",
+    "organizacion": "Cámara de Comercio de Medellín",
+    "modalidad": "Híbrida",
+    "fechaCierre": "2026-10-20",
+    "cupos": 1
+  },
+  {
+    "id": 8,
+    "titulo": "Práctica en Ciencia de Datos",
+    "tipo": "Práctica",
+    "organizacion": "DataAndes Analytics",
+    "modalidad": "Presencial",
+    "fechaCierre": "2026-12-10",
+    "cupos": 0
+  },
+  {
+    "id": 9,
+    "titulo": "Curso de Ciberseguridad para Principiantes",
+    "tipo": "Curso",
+    "organizacion": "SENA",
+    "modalidad": "Virtual",
+    "fechaCierre": "2026-11-30",
+    "cupos": 40
+  }
+]
